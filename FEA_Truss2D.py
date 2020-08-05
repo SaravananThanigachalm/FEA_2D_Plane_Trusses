@@ -2,6 +2,8 @@ import numpy as np
 import math
 
 np.set_printoptions(3, suppress= True) #Round-off decimal to 3 significant digits after decimal
+print("\nWelcome to 2D Truss FEA Solver V1")
+print("By Saravanan T\n")
 
 #<--------------- Elements and Nodes --------------->#
 Elements = int(input("Please enter the number of Elements: ")) # Specify the number of Elements in the Truss
